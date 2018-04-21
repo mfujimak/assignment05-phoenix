@@ -28,7 +28,16 @@
 
 </main>
 
-<footer>
+<footer class = "fixed">
+	<div class="container">
+		<div class="third">
+	<a href="simba.php"><img src="images/logo.jpg" alt="Simba logo"></a>
+		</div>
+		<div class="Fourth">
+			
+			<a href="login.php">Vote for your Favorite Character</a>
+		</div>
+	</div>
 		
 </footer>
 
