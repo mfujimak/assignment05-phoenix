@@ -24,7 +24,7 @@
 
 <main>
 	<!-- Z-pattern and h1 should be in the center -->
-<h1> Disney World!</h1>
+<h1> Welcome to the Disney World!</h1>
 
 </main>
 
