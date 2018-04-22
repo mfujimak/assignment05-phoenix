@@ -13,10 +13,10 @@
 	<div class="container">
 		<div class="primary">
 		<!-- Primary Optical Area -->
-	<a href="mickey.php"><img src="images/logo.jpg" alt="Mickey logo"></a>
+	<a href="mickey.php"><img src="images/mickey_logo.png" alt="Mickey logo"></a>
         </div>
         <div class="secondary">
-    <a href="stich.php"><img src="images/logo.jpg" alt="Stich logo"></a>
+    <a href="stich.php"><img src="images/stich_logo.png" alt="Stich logo"></a>
         </div>
       </div>
 		
@@ -31,7 +31,7 @@
 <footer class = "fixed">
 	<div class="container">
 		<div class="third">
-	<a href="simba.php"><img src="images/logo.jpg" alt="Simba logo"></a>
+	<a href="simba.php"><img src="images/simba_logo.png" alt="Simba logo"></a>
 		</div>
 		<div class="Fourth">
 			
