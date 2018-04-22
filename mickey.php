@@ -35,8 +35,8 @@
   <div>
 
         <figure class="photo-frame">
-          <img src="images/rhino.jpg" alt="White Rhino">
-          <figcaption>White Rhino from Africa</figcaption>
+          <img src="images/mouse1.png" alt="mickeymouse">
+          <figcaption>Mickey</figcaption>
         </figure>
 
       </div>
@@ -57,8 +57,8 @@
   <div>
 
         <figure class="photo-frame">
-          <img src="images/hi.jpg" alt="White Rhino">
-          <figcaption>White Rhino from Africa</figcaption>
+          <img src="images/mouse2.png" alt="mickeymouse">
+          <figcaption>Mickey</figcaption>
         </figure>
 
 
@@ -78,8 +78,8 @@
    <div>
 
         <figure class="photo-frame">
-          <img src="images/rhinos.jpg" alt="three White Rhinos">
-          <figcaption>three White Rhinos from Africa</figcaption>
+          <img src="images/mouse3.png" alt="mickeymouse">
+          <figcaption>Mickey</figcaption>
         </figure>
 
 
