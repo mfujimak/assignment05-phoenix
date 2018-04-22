@@ -19,8 +19,9 @@
     <span>Assignment05</span>
     
     
-	<?php 
-		include 'includes/nav.php'; 
+	 <?php $active='simba';?>
+  <?php 
+    include 'inc/navigation.php'; 
    ?>  
  </header>
 

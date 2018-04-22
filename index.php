@@ -7,7 +7,7 @@
    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="z-pattern"> <!-- Z-pattern -->
-
+ 
 
 <header class="fixed">
 	<div class="container">

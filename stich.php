@@ -18,9 +18,9 @@
     <h1>Stich</h1>
     <span>Assignment05</span>
     
-    
+    <?php $active='stich';?>
 	<?php 
-		include 'includes/nav.php'; 
+		include 'inc/navigation.php'; 
    ?>  
  </header>
 
