@@ -23,9 +23,9 @@
 
 			<ul class="nav navbar-nav">
 
-				<li><a href="mickey.php" class="<?php echo ($active == 'Aziz' ? "active" : "");?>">Mickey Mouse</a></li>
-				<li><a href="stich.php" class="<?php echo ($active == 'Ostriker' ? "active" : "");?>">Stich</a></li>
-				<li><a href="simba.php" class="<?php echo ($active == 'Yang' ? "active" : "");?>">Simba</a></li>
+				<li><a href="mickey.php" class="<?php echo ($active == 'mickey' ? "active" : "");?>">Mickey Mouse</a></li>
+				<li><a href="stich.php" class="<?php echo ($active == 'stich' ? "active" : "");?>">Stich</a></li>
+				<li><a href="simba.php" class="<?php echo ($active == 'simba' ? "active" : "");?>">Simba</a></li>
 				<li><a href="form.php" class="<?php echo ($active == 'form' ? "active" : "");?>">Contact Us</a></li>
 
 			</ul>
