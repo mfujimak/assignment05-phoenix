@@ -18,9 +18,9 @@
     <h1>Mickey Mouse</h1>
     <span>Assignment05</span>
     
-   <?php $active='mickey';?>
+   
   <?php 
-    include 'inc/navigation.php'; 
+    include 'includes/nav.php'; 
    ?>  
  </header>
 
