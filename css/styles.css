@@ -24,7 +24,7 @@
 	******************************************* */
 	.float {
 		float: right;
-		margin: 0 0 20px 25px;
+		margin: 0px 0 20px 25px;
 		padding: 9px;
 		background-color: white;
 		border: 1px solid rgb(186, 187, 188);
@@ -151,7 +151,7 @@
 		font-size: 14px;
 	}
 
-	.f-pattern h1 { margin-top: 50px; }
+	.f-pattern h2 { margin-top: 50px; }
 
 	.f-pattern ul { line-height: 35px; }
 
