@@ -6,11 +6,7 @@
 		color: #333333;
 	}
 
-	a:hover { color: rgb(226, 233, 255); }
-
-	a img:hover { background: radial-gradient(ellipse farthest-side, rgba(190, 202, 216, 1), rgba(190, 202, 216, 0));}
-
-	a { text-decoration: none; color: white; }
+	a img:hover { background: radial-gradient(ellipse farthest-side, rgba(163, 163, 163, 1), rgba(163, 163, 163, 0));}
 
 	h1 { 
 		font-family: 'Norican', cursive; 
@@ -38,13 +34,19 @@
 
 	.border {
 		padding: 10px;
-		border: 0.5px solid white;
+		border: 1px solid rgb(87, 117, 170);
 		border-radius: 10px;
+		color: rgb(87, 117, 170);
+		font-size: 18px;
+		font-weight: bold;
 	}
 
 	.border:hover {
-		background-color: rgb(98, 98, 99);
+		background-color: rgb(87, 117, 170);
 		text-shadow: none;
+		text-decoration: none;
+		color: white;
+		border: none;
 	}
 
 /*	Title styles 
@@ -64,28 +66,19 @@
 	.wrapper {
 		width: 350px;
     	margin: 0 auto;
-    	text-shadow: 0 0 25px black;
+    	text-shadow: 0 0 30px black;
 	}
 
 	.together { display: inline; }
 
-/*	Common footer styles
-	************************************** */
-	.common { 
-	  color: rgb(147, 147, 147);
-	  line-height: 40px;
-	  text-align: center;
-	  overflow: auto;
-	  width: 100%;
-	  padding-top: 5px;
-	}
+	.wrapper a { color: rgb(168, 211, 255); }
 
 /*	Navigation styles
 	************************************** */
 	.menu {
-	margin-top: 0;
-	margin-left: 0;
-	text-align: center;
+		margin-top: 0;
+		margin-left: 0;
+		text-align: center;
 	}
 
 	.menu ul {
@@ -101,14 +94,14 @@
 		text-decoration: none;
 		padding: 5px 20px 5px 20px;
 		border: 1px solid white;
-		border-radius: 5px;
+		border-radius: 10px;
 		margin: 10px;
 	}
 
 	.menu a:hover { 
-		background-color: white; 
+		background-color: rgb(193, 216, 255);
 		color: rgb(33, 51, 96);
-		border-radius: 5px;
+		border-radius: 10px;
 		text-shadow: none;
 	}
 
@@ -118,9 +111,11 @@
 	}
 
 	.menu .is-current {
-		color: white;
-		border: 1px solid white;
-		border-radius: 5px;
+		color: rgb(33, 51, 96);
+		background-color: white; 
+	/*	border: 1px solid white;*/
+		border-radius: 10px;
+		text-shadow: none;
 	}
  
 /*	*******************************************
@@ -142,8 +137,6 @@
 		align-items: center;
 		min-height: 90vh;
 	}
-
-	.z-pattern footer { text-align: center;	}
  
 	.fixed {
 		position: fixed;
@@ -192,7 +185,7 @@
 		overflow: auto;
 	}
 
-	.f-pattern h2 { margin-top: 50px; }
+	.f-pattern h2, h3 { margin-top: 50px; }
 
 	.f-pattern main { 
 		background-color: rgb(232, 242, 255);
@@ -204,3 +197,4 @@
 		padding: 40px 30px 30px 30px;
 		overflow: auto;
 	}
+

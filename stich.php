@@ -16,7 +16,7 @@
 <body class="f-pattern">
   <header>
     <h1>Stitch</h1>
-    <span>Assignment05</span>
+    <span>Assignment 05</span>
     
    
 	<?php 
