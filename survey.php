@@ -15,9 +15,11 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
     <meta charset="UTF-8">
     <title>Sign Up</title>
    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+   <header>
     <?php 
         include 'includes/links.php'; 
    ?> 
+</header>
 </head>
 <body class="admin">
     <?php 
@@ -29,9 +31,9 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 
             <div class="form-group">
-                <input type="radio" name="vote" class="form-control" value="mickey"> Mickey <br>
-                <input type="radio" name="vote" class="form-control" value="stich"> Stich <br>
-                <input type="radio" name="vote" class="form-control" value="simba"> Simba <br>
+                <input class="together" type="radio" name="vote" class="form-control" value="mickey"> Mickey <br>
+                <input class="together" type="radio" name="vote" class="form-control" value="stich"> Stich <br>
+                <input class="together" type="radio" name="vote" class="form-control" value="simba"> Simba <br>
             </div>
             
             <div class="form-group">

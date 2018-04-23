@@ -62,10 +62,12 @@
 	.alone { display: block; margin-bottom: 5px; }
 
 	.wrapper {
-		width: 300px;
+		width: 350px;
     	margin: 0 auto;
     	text-shadow: 0 0 25px black;
 	}
+
+	.together { display: inline; }
 
 /*	Common footer styles
 	************************************** */
