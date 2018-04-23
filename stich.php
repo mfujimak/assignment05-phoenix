@@ -92,11 +92,5 @@
 </div> <!-- container -->
   </main>
  
-
-<!-- Footer -->
-<?php  
-		include 'includes/footer.php';
-    include 'includes/scripts.php';
-	?>
 </body>
 </html>
