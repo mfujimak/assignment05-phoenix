@@ -34,7 +34,7 @@
 		</div>
 		<div class="Fourth">
 			
-			<a class="border" href="login.php">Vote for your Favorite Character</a>
+			<a class="border" href="survey.php">Vote for your Favorite Character</a>
 		</div>
 	</div>
 		
