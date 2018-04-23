@@ -4,38 +4,35 @@
 	<meta charset="utf-8">
 	<title>Assignment05</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="css/styles.css">
+	<?php include 'includes/links.php';?>
 </head>
 <body class="z-pattern"> <!-- Z-pattern -->
  
 
 <header class="fixed">
-	<div class="container">
-		<div class="primary">
-		<!-- Primary Optical Area -->
-	<a href="mickey.php"><img src="images/mickey_logo.png" alt="Mickey logo"></a>
-        </div>
-        <div class="secondary">
-    <a href="stich.php"><img src="images/stich_logo.png" alt="Stich logo"></a>
-        </div>
-      </div>
+	<div>
+			<a href="mickey.php"><img src="images/mickey_logo.png" alt="Mickey logo"></a>
+    
+    		<a href="stich.php"><img src="images/stich_logo.png" alt="Stich logo"></a>
+    </div>
 		
 </header>
 
 <main>
 	<!-- Z-pattern and h1 should be in the center -->
-<h1> Welcome to the Disney World!</h1>
+	<div class="title">
+		<h1> Welcome to <br> the Disney World!</h1>
+	</div>
 
 </main>
 
-<footer class = "fixed">
+<footer>
 	<div class="container">
-		<div class="third">
+		<div class="first">
 	<a href="simba.php"><img src="images/simba_logo.png" alt="Simba logo"></a>
 		</div>
-		<div class="Fourth">
-			
-			<a href="login.php">Vote for your Favorite Character</a>
+		<div class="second">
+			<a class="border" href="login.php">Vote for your Favorite Character</a>
 		</div>
 	</div>
 		

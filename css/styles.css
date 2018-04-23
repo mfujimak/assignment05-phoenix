@@ -1,0 +1,200 @@
+/*	*******************************************
+	BASE
+	******************************************* */
+	body { 
+		font-family: 'Montserrat', sans-serif;
+		color: #333333;
+	}
+
+	a img:hover { background: radial-gradient(ellipse farthest-side, rgba(163, 163, 163, 1), rgba(163, 163, 163, 0));}
+
+	h1 { 
+		font-family: 'Norican', cursive; 
+		font-size: 60pt; 
+	}
+
+	header { text-shadow: 0 0 20px black; }
+
+/*	*******************************************
+	MODULES
+	******************************************* */
+	.float {
+		float: right;
+		margin: 0px 0 20px 25px;
+		padding: 9px;
+		background-color: white;
+		border: 1px solid rgb(186, 187, 188);
+		box-shadow: 7px 7px 5px #999999;
+	}
+
+	.float figcaption {
+		font-size: small;
+		text-align: center;
+	}
+
+	.border {
+		padding: 10px;
+		border: 1px solid rgb(87, 117, 170);
+		border-radius: 10px;
+		color: rgb(87, 117, 170);
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	.border:hover {
+		background-color: rgb(87, 117, 170);
+		text-shadow: none;
+		text-decoration: none;
+		color: white;
+		border: none;
+	}
+
+/*	Title styles 
+	************************************** */
+	.title {
+		text-align: center;
+		text-shadow: 0 0 25px grey;
+		color: white;
+	}
+
+	.title h1 { margin: 0;}
+ 
+/*	Form controls
+	************************************** */
+	.alone { display: block; margin-bottom: 5px; }
+
+	.wrapper {
+		width: 350px;
+    	margin: 0 auto;
+    	text-shadow: 0 0 30px black;
+	}
+
+	.together { display: inline; }
+
+	.wrapper a { color: rgb(168, 211, 255); }
+
+/*	Navigation styles
+	************************************** */
+	.menu {
+		margin-top: 0;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.menu ul {
+		list-style-type: none;
+		padding-left: 0;
+		margin: 0;
+		border-collapse: collapse; 
+	}
+
+	.menu a {
+		color: white;
+		display: block;
+		text-decoration: none;
+		padding: 5px 20px 5px 20px;
+		border: 1px solid white;
+		border-radius: 10px;
+		margin: 10px;
+	}
+
+	.menu a:hover { 
+		background-color: rgb(193, 216, 255);
+		color: rgb(33, 51, 96);
+		border-radius: 10px;
+		text-shadow: none;
+	}
+
+	.menu li {
+		display: inline-block;
+		margin-top: 20px;
+	}
+
+	.menu .is-current {
+		color: rgb(33, 51, 96);
+		background-color: white; 
+	/*	border: 1px solid white;*/
+		border-radius: 10px;
+		text-shadow: none;
+	}
+ 
+/*	*******************************************
+	LAYOUT
+	******************************************* */
+ 	
+/*	Z-pattern layout styles
+	************************************** */
+	.z-pattern {
+		background-image: url(../images/disney.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.z-pattern main { 
+		display: flex; 
+		justify-content: center;
+		align-items: center;
+		min-height: 90vh;
+	}
+ 
+	.fixed {
+		position: fixed;
+		width: 100%;
+	}
+
+ 	.fixed div {
+ 		margin: 15px;
+ 		display: flex;
+ 		justify-content: space-between;
+ 		padding-right: 15px;
+ 	}
+
+ 	.first {
+ 		bottom: 0;
+ 		left: 0;
+ 		position: fixed;
+ 		margin: 15px;
+ 	}
+
+ 	.second {
+ 		bottom: 0;
+ 		right: 0;
+ 		position: fixed;
+ 		margin: 20px;
+ 	}
+
+/*	F-pattern and Admin page layout styles
+	************************************** */
+	.f-pattern, .admin {
+		line-height: 28px;
+		font-size: 14px;
+	}
+
+	.f-pattern header, .admin {
+		background-image: url(../images/hbg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		color: white;
+	}
+
+	.f-pattern header { 
+		text-align: center; 
+		padding: 40px 30px 30px 30px;
+		overflow: auto;
+	}
+
+	.f-pattern h2, h3 { margin-top: 50px; }
+
+	.f-pattern main { 
+		background-color: rgb(232, 242, 255);
+		padding: 5px 0 20px 0;
+		overflow: auto;
+	}
+
+	.admin header {
+		padding: 40px 30px 30px 30px;
+		overflow: auto;
+	}
+
