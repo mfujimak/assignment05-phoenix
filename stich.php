@@ -15,7 +15,7 @@
 
 <body>
   <header>
-    <h1>Stich</h1>
+    <h1>Stitch</h1>
     <span>Assignment05</span>
     
    
@@ -62,10 +62,7 @@
 
       </div>
 
-   
-
-
-
+  
 	<h2> Animation History </h2>
     <p>
      In the anime series Stitch! (2008–11, not including later TV specials), Stitch seems to have reverted to his destructive nature, and is first seen in the first episode being chased in a spaceship by Jumba and the authorities, ending up on an island in the Okinawa Prefecture in Japan. On the island, Stitch gained a new human friend named Yuna Kamihara. The original version (aired in Japan) initially left out what happened between Lilo and Stitch that caused them to be separated, although the heavily edited English dub of the anime had Jumba imply that Stitch ran away out of jealousy of Lilo having a boyfriend. Lilo herself did not appear in any way in the anime until episode 23 of ~Best Friends Forever~ (Season 3), where she, now a fully-grown woman, visits Okinawa's New Town with her daughter, Ani (who looks incredibly like her when she was a child and whom Stitch thought was Lilo in the beginning). Lilo and Stitch were able to reconcile upon reuniting, with Lilo explaining what happened on the day Stitch left her. They both have a happy reunion, she hugs him, promises to visit him again, and asks Stitch to take good care of his new family. She then gives Stitch his tiki necklace back before leaving to return to Hawaii.

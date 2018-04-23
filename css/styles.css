@@ -1,0 +1,175 @@
+/*	*******************************************
+	BASE
+	******************************************* */
+	body { 
+		font-family: 'Raleway', sans-serif;
+		color: #333333;
+	}
+
+	a:hover { color: rgb(226, 233, 255); }
+
+	a img:hover {
+		background: radial-gradient(ellipse farthest-side, rgba(190, 202, 216, 1), rgba(190, 202, 216, 0));
+	}
+
+	a {
+		text-decoration: none;
+		color: white;
+	}
+
+	h1 { font-family: 'Norican', cursive; }
+
+/*	*******************************************
+	MODULES
+	******************************************* */
+	.float {
+		float: right;
+		margin: 0 0 20px 25px;
+		padding: 9px;
+		background-color: white;
+		border: 1px solid rgb(186, 187, 188);
+		box-shadow: 7px 7px 5px #999999;
+	}
+
+	.float figcaption {
+		font-size: small;
+		text-align: center;
+	}
+
+	.border {
+		padding: 10px;
+		border: 0.5px solid white;
+		border-radius: 10px;
+	}
+
+	.border:hover {
+		background-color: rgb(98, 98, 99);
+		text-shadow: none;
+	}
+
+/*	Title styles 
+	************************************** */
+	.title {
+		text-align: center;
+		text-shadow: 0 0 25px black;
+		color: white;
+	}
+
+	.title h1 { 
+		font-size: 72pt; 
+		margin: 0;
+	}
+ 
+/*	Form controls
+	************************************** */
+	.alone {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	.form { 
+		float: right; 
+		padding: 10px;
+		text-align: center;
+		font-size: small;
+		border: 1px solid rgb(175,175,175);
+	}
+
+/*	Common footer styles
+	************************************** */
+	.common { 
+	  color: rgb(147, 147, 147);
+	  line-height: 40px;
+	  text-align: center;
+	  overflow: auto;
+	  width: 100%;
+	  padding-top: 5px;
+	}
+ 
+/*	*******************************************
+	LAYOUT
+	******************************************* */
+	.f-pattern .container {
+	width: 80%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 20px;
+	}
+
+	.thx { text-align: center;}
+
+	.thx footer { 
+		position: absolute;
+		bottom: 0; 
+	}
+
+	.thx main {
+		height: 435px;
+		font-size: 20px;
+	}
+
+	.thx .container { padding-top: 60px; }
+ 	
+/*	Z-pattern layout styles
+	************************************** */
+	.z-pattern {
+		background-image: url(../images/disney.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.z-pattern main { 
+		display: flex; 
+		justify-content: center;
+		align-items: center;
+		min-height: 90vh;
+	}
+
+	.z-pattern footer {
+		text-align: center;
+	}
+ 
+/*	Z-pattern header and footer 
+	************************************** */
+	.fixed {
+		position: fixed;
+		width: 100%;
+	}
+
+ 	.fixed .container {
+ 		margin: 15px;
+ 		display: flex;
+ 		justify-content: space-between;
+ 		padding-right: 15px;
+ 	}
+
+/*	F-pattern layout styles
+	************************************** */
+	.f-pattern {
+		line-height: 26px;
+		font-size: 14px;
+	}
+
+	.f-pattern h1 { margin-top: 50px; }
+
+	.f-pattern ul { line-height: 35px; }
+
+	.f-pattern main, .thx main { 
+		background-color: rgb(244,245,247);
+		padding: 5px 0 20px 0;
+		overflow: auto;
+	}
+
+/*	Header styles
+	************************************** */
+	.f-pattern header, .thx header {
+		padding: 40px 30px 30px 30px;
+		overflow: auto;
+	}
+
+	.f-pattern header img, .thx header img { 
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
