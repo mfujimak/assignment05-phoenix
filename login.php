@@ -15,7 +15,6 @@
         include 'includes/nav.php'; 
    ?>  
 </header>
-   <main>
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
@@ -38,6 +37,5 @@
 
         </form>
     </div>    
-</main>
 </body>
 </html>
