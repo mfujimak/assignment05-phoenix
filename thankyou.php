@@ -11,9 +11,11 @@
 </header>
 </head>
 <body class="admin">
+    <header>
     <?php 
         include 'includes/nav.php'; 
    ?>  
+ </header>
     <div class="wrapper">
         <h2>Thank you for voting!</h2>
        

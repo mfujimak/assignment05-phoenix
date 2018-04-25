@@ -1,32 +1,39 @@
 <?php
 // Initialize the session
-session_start();
+// session_start();
  
 // If session variable is not set it will redirect to login page
-if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
-  header("location: login.php");
-  exit;
-}
+// if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
+//   header("location: login.php");
+//   exit;
+// }
 ?>
 
 <html>  
     <head>  
         <title>Administration Panel</title>  
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
+        <?php 
+        include 'includes/links.php'; 
+        ?> 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
     </head>  
-    <body>  
+    <body class="admin2">  
+        <header>
+            <?php 
+                include 'includes/nav.php'; 
+           ?>  
+         </header>
+         <main>
         <div class="container">  
-            <br />  
-            <br />
-			<br />
+         
 			<div class="table-responsive">  
 				<h3 align="center">Survey Data Management</h3><br />
 				<span id="result"></span>
 				<div id="live_data"></div>                 
 			</div>  
 		</div>
+    </main>
     </body>  
 </html>  
 <script>  

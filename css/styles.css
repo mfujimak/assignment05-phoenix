@@ -171,7 +171,7 @@
 		font-size: 14px;
 	}
 
-	.f-pattern header, .admin {
+	.f-pattern header, .admin, .admin2 header {
 		background-image: url(../images/hbg.png);
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -179,7 +179,7 @@
 		color: white;
 	}
 
-	.f-pattern header { 
+	.f-pattern header, .admin header, .admin2 header { 
 		text-align: center; 
 		padding: 40px 30px 30px 30px;
 		overflow: auto;
@@ -187,14 +187,9 @@
 
 	.f-pattern h2, h3 { margin-top: 50px; }
 
-	.f-pattern main { 
+	.f-pattern main, .admin2 { 
 		background-color: rgb(232, 242, 255);
 		padding: 5px 0 20px 0;
-		overflow: auto;
-	}
-
-	.admin header {
-		padding: 40px 30px 30px 30px;
 		overflow: auto;
 	}
 
