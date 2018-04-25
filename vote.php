@@ -1,13 +1,10 @@
 <?php  
 	$connect = mysqli_connect("localhost", "urcscon3_phoeni", "coffee1N", "urcscon3_phoeni");
-	$id = $_POST["id"];  
-	$vote = $_POST['vote']
+	$vote = $_POST['vote'];
 	
-	$sql = "UPDATE users SET "vote"='".$vote."' WHERE id='".$id."'";  
-	if(mysqli_query($connect, $sql))  
-	{  
-		echo 'Data Updated';  
-	} 
+	$sql = "INSERT INTO vote(vote) VALUES ('$vote')";
+	mysqli_query($connect, $sql);
+	header("location: login.php");
 
-	mysqli_close($connection); 
+	mysqli_close($connect); 
  ?>

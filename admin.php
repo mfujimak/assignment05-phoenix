@@ -22,7 +22,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
             <br />
 			<br />
 			<div class="table-responsive">  
-				<h3 align="center">Back to Tutorial</h3><br />
+				<h3 align="center">Survey Data Management</h3><br />
 				<span id="result"></span>
 				<div id="live_data"></div>                 
 			</div>  
@@ -37,28 +37,23 @@ $(document).ready(function(){
             url:"select.php",  
             method:"POST",  
             success:function(data){  
-				$('#live_data').html(data);  
+                $('#live_data').html(data);  
             }  
         });  
     }  
     fetch_data();  
     $(document).on('click', '#btn_add', function(){  
-        var username = $('#username').text();  
         var vote = $('#vote').text();  
-        if(username == '')  
-        {  
-            alert("Enter User name");  
-            return false;  
-        }  
         if(vote == '')  
         {  
-            alert("Enter Vote");  
+            alert("Enter your vote");  
             return false;  
         }  
+        
         $.ajax({  
             url:"insert.php",  
             method:"POST",  
-            data:{username:username, vote:vote},  
+            data:{vote:vote},  
             dataType:"text",  
             success:function(data)  
             {  
@@ -68,7 +63,7 @@ $(document).ready(function(){
         })  
     });  
     
-	function edit_data(id, text, column_name)  
+    function edit_data(id, text, column_name)  
     {  
         $.ajax({  
             url:"edit.php",  
@@ -77,22 +72,18 @@ $(document).ready(function(){
             dataType:"text",  
             success:function(data){  
                 //alert(data);
-				$('#result').html("<div class='alert alert-success'>"+data+"</div>");
+                $('#result').html("<div class='alert alert-success'>"+data+"</div>");
             }  
         });  
     }  
-    $(document).on('blur', '.username', function(){  
-        var id = $(this).data("id1");  
-        var username = $(this).text();  
-        edit_data(id, username, "username");  
-    });  
     $(document).on('blur', '.vote', function(){  
-        var id = $(this).data("id2");  
+        var id = $(this).data("id1");  
         var vote = $(this).text();  
-        edit_data(id,vote, "vote");  
+        edit_data(id, vote, "vote");  
     });  
+    
     $(document).on('click', '.btn_delete', function(){  
-        var id=$(this).data("id3");  
+        var id=$(this).data("id2");  
         if(confirm("Are you sure you want to delete this?"))  
         {  
             $.ajax({  
