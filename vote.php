@@ -4,7 +4,7 @@
 	
 	$sql = "INSERT INTO vote(vote) VALUES ('$vote')";
 	mysqli_query($connect, $sql);
-	header("location: login.php");
+	header("location: thankyou.php");
 
 	mysqli_close($connect); 
  ?>
