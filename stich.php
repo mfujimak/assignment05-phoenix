@@ -9,7 +9,7 @@
 		include 'includes/links.php'; 
    ?>  
 
-	<title>Stich</title>
+	<title>Stitch</title>
 </head>
 
 
@@ -32,8 +32,8 @@
 <div>
 
         <figure class="float">
-          <img src="images/stich1.png" alt="Stich">
-          <figcaption>Stich</figcaption>
+          <img src="images/stich2.png" alt="Stich">
+          <figcaption>Stitch</figcaption>
         </figure>
 
       </div>
@@ -49,8 +49,8 @@
   <div>
 
         <figure class="float">
-          <img src="images/stich2.png" alt="Stich">
-          <figcaption>Stich</figcaption>
+          <img src="images/stich1.png" alt="Stich">
+          <figcaption>Stitch</figcaption>
         </figure>
 
 
@@ -68,7 +68,7 @@
 
         <figure class="float">
           <img src="images/stich3.png" alt="Stich">
-          <figcaption>Stich</figcaption>
+          <figcaption>Stitch</figcaption>
         </figure>
 
 

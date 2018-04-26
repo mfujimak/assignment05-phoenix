@@ -18,7 +18,7 @@ Design could use different color for the hover attribute on navigation.
 F-pattern for three charcters' webpages and Z-pattern for the index. 
 
 Typeface/Font Suggestion：
-I suggest the designer to use fonts that add mysterious and marvellous moods to webpages.
+I suggest the designer to use fonts that add mysterious and marvellous moods to webpages titles.
 The h1s need to be styled using fonts that are clear and powerful.
 All the body paragraphs should use the same font.
 
@@ -31,7 +31,7 @@ the form should have : name of the users and their favorite characters(radiobutt
 ### Designer - Xuanyang Wang
 Page Layout
 I used bootstrap combining with custom patterns on the pages.
-For the background, I chosed blue as the theme color that fits the disney topic. 
+For the background, I chosed blue as the theme color that fits the disney topic. Just as the IA has noted, the dark blue backgrounds conveys a mysterious mood. The light blue background on the home page creates a sense of an fantastic amusement park, which is exactly the right mood for disney world.
     Z-pattern: I applied z-pattern on the home page because it is not text-heavy. As the IA has suggested, the logo of each character is positioned at three corners and the vote button is positioned on bottom right. 
     F-pattern: F-pattern was used in the page with more information regarding the three characters. This page has more content and thus it fits well with an f-pattern layout. Each section starts with title, then body paragraphs, and finally a picture on the right. It would make more sense for viewers because they will first pay attention to the most relevent content.
 
@@ -40,7 +40,7 @@ As the IA has instructed, I chose Norican and Montserrat as the main fonts on th
 
 C.R.A.P. Principles
     Contrast: Different font size for headings and content; use of contrasting color for text and backgrounds.
-    Repetition: Same format for each section; same font chioce and color theme on each page.
+    Repetition: Same format for each section; same font chioce, background and color theme on each page.
     Alignment: Left alignment is used across the pages.
     Proximity: Each section on the characters' page is seperated by white spaces.
     
