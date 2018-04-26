@@ -1,5 +1,5 @@
 # assignment05-phoenix
-## City: phoenix
+## City: Phoenix
 ### IA: Masaru Fujimaki
 ### Designer: Xuanyang Wang
 ### Coder: BEI Lu
@@ -9,11 +9,8 @@ Github: https://github.com/mfujimak/assignment05-phoenix
 Database: local
 
 ### IA - Masaru Fujimaki
- 
-
 
 Layout Suggestions：
-Each web pages could have a common footer.
 Designer could decide whether or not to keep the original home page styles.
 The HTML form could be positioned on a new page, and this page should use the same layout as the students' pages do. 
 For background, Designer can use some colors that fit the content of the webpage(mysterious and fanatastic.) Designer can try to use some background images of each characters. 
@@ -31,6 +28,23 @@ create a login system and after they logged in, they should be directed to a web
 the form should have : name of the users and their favorite characters(radiobutton will be simple and clear). 
 
 
+### Designer - Xuanyang Wang
+Page Layout
+I used bootstrap combining with custom patterns on the pages.
+For the background, I chosed blue as the theme color that fits the disney topic. 
+    Z-pattern: I applied z-pattern on the home page because it is not text-heavy. As the IA has suggested, the logo of each character is positioned at three corners and the vote button is positioned on bottom right. 
+    F-pattern: F-pattern was used in the page with more information regarding the three characters. This page has more content and thus it fits well with an f-pattern layout. Each section starts with title, then body paragraphs, and finally a picture on the right. It would make more sense for viewers because they will first pay attention to the most relevent content.
+
+Typography
+As the IA has instructed, I chose Norican and Montserrat as the main fonts on the website. Norican is used for page titles to convey a mysterious and marvelous mood, and it fits the disney topic. Montserrat is used for other body paragraphs and administration page becuase of its higher readability. My choice of fonts were inspired by the offcial disney website, which has also adopted a cusive font well paired with a sans-serif font.
+
+C.R.A.P. Principles
+    Contrast: Different font size for headings and content; use of contrasting color for text and backgrounds.
+    Repetition: Same format for each section; same font chioce and color theme on each page.
+    Alignment: Left alignment is used across the pages.
+    Proximity: Each section on the characters' page is seperated by white spaces.
+    
+    
 ### Coder - Bei Lu
 
 #Survey and Login
