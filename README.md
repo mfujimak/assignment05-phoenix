@@ -43,7 +43,8 @@ C.R.A.P. Principles
     Repetition: Same format for each section; same font chioce, background and color theme on each page.
     Alignment: Left alignment is used across the pages.
     Proximity: Each section on the characters' page is seperated by white spaces.
-    
+
+Background image source: https://lilynevergrowsup.wordpress.com/2016/04/18/fond-decran-disneyland/
     
 ### Coder - Bei Lu
 
