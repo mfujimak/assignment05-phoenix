@@ -113,6 +113,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <br>
 
         </form>
-    </div>    
+    </div>
+    <?php
+    include 'includes/scripts.php';
+    ?>     
 </body>
 </html>

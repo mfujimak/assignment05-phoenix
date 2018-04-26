@@ -33,6 +33,9 @@
             <p>Go to<a href="admin.php"> Administration panel</a>.</p>
             <br>
         </form>
-    </div>    
+    </div> 
+    <?php
+    include 'includes/scripts.php';
+    ?>   
 </body>
 </html>

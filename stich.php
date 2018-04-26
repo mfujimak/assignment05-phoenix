@@ -91,6 +91,8 @@
 
 </div> <!-- container -->
   </main>
- 
+ <?php
+    include 'includes/scripts.php';
+    ?>
 </body>
 </html>
