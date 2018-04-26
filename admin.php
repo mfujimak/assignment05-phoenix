@@ -21,9 +21,20 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
     <body class="admin2">  
         <header>
             <h1>Survey Data Management</h1>
-            <?php 
-                include 'includes/nav.php'; 
-           ?>  
+            <nav class="menu">
+            <div>
+              <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="mickey.php">Mickey Mouse</a></li>
+                <li><a href="stich.php">Stitch</a></li>
+                <li><a href="simba.php">Simba</a></li>
+                <li><a href="survey.php">Survey</a></li>
+                <li><a href="login.php">Log In</a></li>
+                <li><a href="logout.php">Log Out</a></li>
+
+              </ul>
+            </div>
+            </nav>
          </header>
          <main>
         <div class="container">  

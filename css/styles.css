@@ -99,8 +99,7 @@
 	}
 
 	.menu a:hover { 
-		background-color: rgb(193, 216, 255);
-		color: rgb(33, 51, 96);
+		background-color: rgb(46, 64, 94);
 		border-radius: 10px;
 		text-shadow: none;
 	}
@@ -113,7 +112,6 @@
 	.menu .is-current {
 		color: rgb(33, 51, 96);
 		background-color: white; 
-	/*	border: 1px solid white;*/
 		border-radius: 10px;
 		text-shadow: none;
 	}
@@ -121,9 +119,7 @@
 /*	*******************************************
 	LAYOUT
 	******************************************* */
- 	.table-responsive { 
- 		margin-top: 20px;
- 	}
+ 	.table-responsive { margin-top: 20px; }
 
 /*	Z-pattern layout styles
 	************************************** */
@@ -191,10 +187,11 @@
 	.f-pattern h2, h3 { margin-top: 50px; }
 
 	.f-pattern main, .admin2 { 
-		background-color: rgb(232, 242, 255);
 		padding: 5px 0 20px 0;
 		overflow: auto;
 	}
+
+	.f-pattern main { background-color: rgb(232, 242, 255); }
 
 	.admin2 h1 { 
 		font-size: 35px; 
