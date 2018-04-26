@@ -67,7 +67,8 @@ After log in, admin user will be directed to a admin page, where admin panel is 
 
 #Standards
 I've completed validation for both css and html.
-php include function was used to exclude redundance (navigation bar).
+php include function was used to exclude redundance (navigation bar & links).
+I added menu highlighter using JavaScript codes.
 
 
 
