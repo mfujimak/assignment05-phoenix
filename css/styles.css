@@ -121,7 +121,10 @@
 /*	*******************************************
 	LAYOUT
 	******************************************* */
- 	
+ 	.table-responsive { 
+ 		margin-top: 20px;
+ 	}
+
 /*	Z-pattern layout styles
 	************************************** */
 	.z-pattern {
@@ -166,7 +169,7 @@
 
 /*	F-pattern and Admin page layout styles
 	************************************** */
-	.f-pattern, .admin {
+	.f-pattern, .admin, .admin2 {
 		line-height: 28px;
 		font-size: 14px;
 	}
@@ -191,5 +194,10 @@
 		background-color: rgb(232, 242, 255);
 		padding: 5px 0 20px 0;
 		overflow: auto;
+	}
+
+	.admin2 h1 { 
+		font-size: 35px; 
+		font-family: 'Montserrat', sans-serif;
 	}
 

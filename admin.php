@@ -1,12 +1,12 @@
 <?php
 // Initialize the session
-// session_start();
+session_start();
  
 // If session variable is not set it will redirect to login page
-// if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
-//   header("location: login.php");
-//   exit;
-// }
+if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
+  header("location: login.php");
+  exit;
+}
 ?>
 
 <html>  
@@ -20,15 +20,14 @@
     </head>  
     <body class="admin2">  
         <header>
+            <h1>Survey Data Management</h1>
             <?php 
                 include 'includes/nav.php'; 
            ?>  
          </header>
          <main>
         <div class="container">  
-         
 			<div class="table-responsive">  
-				<h3 align="center">Survey Data Management</h3><br />
 				<span id="result"></span>
 				<div id="live_data"></div>                 
 			</div>  
