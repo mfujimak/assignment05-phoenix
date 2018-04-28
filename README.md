@@ -6,7 +6,10 @@
 
 Website location: http://www.urcsc174.org/assignment05/assignment05-phoenix/
 Github: https://github.com/mfujimak/assignment05-phoenix
-Database: local
+DB_SERVER: 'localhost'
+DB_USERNAME: 'urcscon3_phoeni'
+DB_PASSWORD: 'coffee1N'
+DB_NAME: 'urcscon3_phoeni'
 
 ### IA - Masaru Fujimaki
 
