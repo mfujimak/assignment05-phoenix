@@ -98,10 +98,12 @@
 		margin: 10px;
 	}
 
-	.menu a:hover { 
+	.menu a:hover, .admin-button:hover { 
 		background-color: rgb(46, 64, 94);
 		border-radius: 10px;
 		text-shadow: none;
+		color: white;
+		text-decoration: none;
 	}
 
 	.menu li {
@@ -125,6 +127,16 @@
 		width: 80%;
 		max-width: 960px;
 		margin: 0 auto;
+	}
+
+	.admin-button {
+		text-align: left;
+		display: inline;
+		color: white;
+		padding: 5px 20px 5px 20px;
+		border: 1px solid white;
+		border-radius: 10px;
+		margin: 5px;
 	}
 
 /*	Z-pattern layout styles
@@ -202,5 +214,12 @@
 	.admin2 h1 { 
 		font-size: 35px; 
 		font-family: 'Montserrat', sans-serif;
+	}
+
+	.button-wrap {
+		top: 0;
+		right: 0;
+		position: fixed;
+		margin: 10px;
 	}
 

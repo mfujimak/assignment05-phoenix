@@ -20,6 +20,10 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
     </head>  
     <body class="admin2">  
         <header>
+            <div class="button-wrap">
+            <a class="admin-button" href="login.php">Log In</a>
+            <a class="admin-button" href="logout.php">Log Out</a>
+            </div>
             <h1>Survey Data Management</h1>
             <nav class="menu">
             <div>
@@ -29,8 +33,6 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
                 <li><a href="stich.php">Stitch</a></li>
                 <li><a href="simba.php">Simba</a></li>
                 <li><a href="survey.php">Survey</a></li>
-                <li><a href="login.php">Log In</a></li>
-                <li><a href="logout.php">Log Out</a></li>
 
               </ul>
             </div>

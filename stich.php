@@ -15,6 +15,10 @@
 
 <body class="f-pattern">
   <header>
+    <div class="button-wrap">
+            <a class="admin-button" href="login.php">Log In</a>
+            <a class="admin-button" href="logout.php">Log Out</a>
+            </div>
     <h1>Stitch</h1>
     <span>Assignment 05</span>
     

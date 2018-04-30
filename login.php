@@ -88,6 +88,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </head>
 <body class="admin">
     <header>
+    <div class="button-wrap">
+            <a class="admin-button" href="login.php">Log In</a>
+            <a class="admin-button" href="logout.php">Log Out</a>
+            </div>
    <?php 
         include 'includes/nav.php'; 
    ?>  
